@@ -1,4 +1,3 @@
-
 #btn {
     position: absolute;
     z-index: 5;
@@ -140,15 +139,4 @@
     #btn.active{
         left: 15px;
     }
-}
-
-.box{
-    width: 200px;
-    height: 400px;
-    /* background-color: green; */
-    margin: 0 auto;
-    transition: .1s;
-}
-.box:hover{
-  transform: scale(1.2);
 }

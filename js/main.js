@@ -26,3 +26,12 @@
 
     
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+    const btn1 = document.querySelector('#btn1')
+
+
+    btn1.addEventListener('click', ()=> {
+        const url = './course_vid_sytylosti.html'
+        document.location.href = url;
+    })
